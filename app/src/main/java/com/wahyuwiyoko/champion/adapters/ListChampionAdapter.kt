@@ -1,10 +1,12 @@
 package com.wahyuwiyoko.champion.adapters
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.wahyuwiyoko.champion.activities.DetailActivity
 import com.wahyuwiyoko.champion.databinding.ItemRowChampionBinding
 import com.wahyuwiyoko.champion.models.Champion
 
@@ -32,5 +34,15 @@ class ListChampionAdapter(
         holder.tvName.text = name
         holder.tvSubtitle.text = subtitle
         holder.imgAvatar.setImageResource(avatar)
+
+        holder.itemView.setOnClickListener {
+            val intentDetail = Intent(holder.itemView.context, DetailActivity::class.java)
+
+            intentDetail.putExtra(
+                DetailActivity.EXTRA_CHAMPION, listChampion[holder.adapterPosition]
+            )
+
+            holder.itemView.context.startActivity(intentDetail)
+        }
     }
 }

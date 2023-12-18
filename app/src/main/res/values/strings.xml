@@ -2,7 +2,7 @@
     <string name="app_name">Champion Pool</string>
     <string name="placeholder_name">Champion Name</string>
     <string name="placeholder_subtitle">Champion Subtitle</string>
-    
+
     <string-array name="champion_name">
         <item>Draven</item>
         <item>Darius</item>
@@ -15,7 +15,7 @@
         <item>Pyke</item>
         <item>Thresh</item>
     </string-array>
-    
+
     <string-array name="champion_subtitle">
         <item>The Glorious Executioner</item>
         <item>The Hand of Noxus</item>
@@ -28,7 +28,7 @@
         <item>The Bloodharbor Ripper</item>
         <item>The Chain Warden</item>
     </string-array>
-    
+
     <integer-array name="champion_avatar">
         <item>@drawable/draven_avatar</item>
         <item>@drawable/darius_avatar</item>
