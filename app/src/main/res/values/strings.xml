@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">Champion Pool</string>
+    <string name="placeholder_name">Champion Name</string>
+    <string name="placeholder_description">Champion Description</string>
+    
+    <string-array name="champion_name">
+        <item>Draven</item>
+        <item>Darius</item>
+        <item>Swain</item>
+        <item>Vladimir</item>
+        <item>Fiora</item>
+        <item>Yone</item>
+        <item>Volibear</item>
+        <item>Gwen</item>
+        <item>Pyke</item>
+        <item>Thresh</item>
+    </string-array>
+    
+    <string-array name="champion_subtitle">
+        <item>The Glorious Executioner</item>
+        <item>The Hand of Noxus</item>
+        <item>The Noxian Grand General</item>
+        <item>The Crimson Reaper</item>
+        <item>The Grand Duelist</item>
+        <item>The Unforgotten</item>
+        <item>The Relentless Storm</item>
+        <item>The Hallowed Seamstress</item>
+        <item>The Bloodharbor Ripper</item>
+        <item>The Chain Warden</item>
+    </string-array>
+    
+    <integer-array name="champion_avatar">
+        <item>@drawable/draven_avatar</item>
+        <item>@drawable/darius_avatar</item>
+        <item>@drawable/swain_avatar</item>
+        <item>@drawable/vladimir_avatar</item>
+        <item>@drawable/fiora_avatar</item>
+        <item>@drawable/yone_avatar</item>
+        <item>@drawable/volibear_avatar</item>
+        <item>@drawable/gwen_avatar</item>
+        <item>@drawable/pyke_avatar</item>
+        <item>@drawable/thresh_avatar</item>
+    </integer-array>
 </resources>
