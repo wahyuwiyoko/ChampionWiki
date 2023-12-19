@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class Champion(
     val name: String,
     val subtitle: String,
-    val avatar: Int
+    val avatar: Int,
+    val banner: Int
 ) : Parcelable

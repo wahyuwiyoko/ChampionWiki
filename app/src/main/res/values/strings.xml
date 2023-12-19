@@ -6,11 +6,11 @@
     <string-array name="champion_name">
         <item>Draven</item>
         <item>Darius</item>
-        <item>Swain</item>
-        <item>Vladimir</item>
-        <item>Fiora</item>
+        <item>Yasuo</item>
         <item>Yone</item>
-        <item>Volibear</item>
+        <item>Akshan</item>
+        <item>Fiora</item>
+        <item>Pantheon</item>
         <item>Gwen</item>
         <item>Pyke</item>
         <item>Thresh</item>
@@ -19,11 +19,11 @@
     <string-array name="champion_subtitle">
         <item>The Glorious Executioner</item>
         <item>The Hand of Noxus</item>
-        <item>The Noxian Grand General</item>
-        <item>The Crimson Reaper</item>
-        <item>The Grand Duelist</item>
+        <item>The Unforgiven</item>
         <item>The Unforgotten</item>
-        <item>The Relentless Storm</item>
+        <item>The Rogue Sentinel</item>
+        <item>The Grand Duelist</item>
+        <item>The Unbreakable Spear</item>
         <item>The Hallowed Seamstress</item>
         <item>The Bloodharbor Ripper</item>
         <item>The Chain Warden</item>
@@ -32,13 +32,26 @@
     <integer-array name="champion_avatar">
         <item>@drawable/draven_avatar</item>
         <item>@drawable/darius_avatar</item>
-        <item>@drawable/swain_avatar</item>
-        <item>@drawable/vladimir_avatar</item>
-        <item>@drawable/fiora_avatar</item>
+        <item>@drawable/yasuo_avatar</item>
         <item>@drawable/yone_avatar</item>
-        <item>@drawable/volibear_avatar</item>
+        <item>@drawable/akshan_avatar</item>
+        <item>@drawable/fiora_avatar</item>
+        <item>@drawable/pantheon_avatar</item>
         <item>@drawable/gwen_avatar</item>
         <item>@drawable/pyke_avatar</item>
         <item>@drawable/thresh_avatar</item>
+    </integer-array>
+
+    <integer-array name="champion_banner">
+        <item>@drawable/draven_banner</item>
+        <item>@drawable/darius_banner</item>
+        <item>@drawable/yasuo_banner</item>
+        <item>@drawable/yone_banner</item>
+        <item>@drawable/akshan_banner</item>
+        <item>@drawable/fiora_banner</item>
+        <item>@drawable/pantheon_banner</item>
+        <item>@drawable/gwen_banner</item>
+        <item>@drawable/pyke_banner</item>
+        <item>@drawable/thresh_banner</item>
     </integer-array>
 </resources>
