@@ -29,6 +29,7 @@ class DetailActivity : AppCompatActivity() {
             binding.tvDetailName.text = dataChampion.name
             binding.tvDetailSubtitle.text = dataChampion.subtitle
             binding.imgDetailBanner.setImageResource(dataChampion.banner)
+            binding.tvDetailDescription.text = dataChampion.description
         }
     }
 }

@@ -2,6 +2,7 @@
     <string name="app_name">Champion Pool</string>
     <string name="placeholder_name">Champion Name</string>
     <string name="placeholder_subtitle">Champion Subtitle</string>
+    <string name="placeholder_description">Champion Description</string>
 
     <string-array name="champion_name">
         <item>Draven</item>
@@ -54,4 +55,81 @@
         <item>@drawable/pyke_banner</item>
         <item>@drawable/thresh_banner</item>
     </integer-array>
+
+    <string-array name="champion_description">
+        <item>
+            In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled
+            and strength tested—but none has ever been as celebrated as Draven. A former soldier, he
+            found that the crowds uniquely appreciated his flair for the dramatic, and his
+            unparalleled skill with his spinning axes. Addicted to the spectacle of his own brash
+            perfection, Draven has sworn to defeat whomever he must to ensure that his name is
+            chanted throughout the empire forever more.
+        </item>
+        <item>
+            There is no greater symbol of Noxian might than Darius, the nation\'s most feared and
+            battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he
+            cleaves through the empire\'s enemies—many of them Noxians themselves. Knowing that he
+            never doubts his cause is just, and never hesitates once his axe is raised, those who
+            stand against the leader of the Trifarian Legion can expect no mercy.
+        </item>
+        <item>
+            An Ionian of deep resolve, Yasuo is an agile swordsman who wields the air itself against
+            his enemies. As a proud young man, he was falsely accused of murdering his master—unable
+            to prove his innocence, he was forced to slay his own brother in self defense. Even
+            after his master\'s true killer was revealed, Yasuo still could not forgive himself for
+            all he had done, and now wanders his homeland with only the wind to guide his blade.
+        </item>
+        <item>
+            In life, he was Yone—half-brother of Yasuo, and renowned student of his village\'s sword
+            school. But upon his death at the hands of his brother, he found himself hunted by a
+            malevolent entity of the spirit realm, and was forced to slay it with its own sword.
+            Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such
+            creatures in order to understand what he has become.
+        </item>
+        <item>
+            Raising an eyebrow in the face of danger, Akshan fights evil with dashing charisma,
+            righteous vengeance, and a conspicuous lack of shirts. He is highly skilled in the art
+            of stealth combat, able to evade the eyes of his enemies and reappear when they least
+            expect him. With a keen sense of justice and a legendary death-reversing weapon, he
+            rights the wrongs of Runeterra\'s many scoundrels while living by his own moral.
+        </item>
+        <item>
+            The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and
+            cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in
+            the kingdom of Demacia, Fiora took control of the family from her father in the wake of
+            a scandal that nearly destroyed them. House Laurent\'s reputation was sundered, but
+            Fiora bends her every effort to restore her family\'s honor and return them to their
+            rightful place among the great and good of Demacia.
+        </item>
+        <item>
+            Once an unwilling host to the Aspect of War, Atreus survived when the celestial power
+            within him was slain, refusing to succumb to a blow that tore stars from the heavens. In
+            time, he learned to embrace the power of his own mortality, and the stubborn resilience
+            that goes along with it. Atreus now opposes the divine as Pantheon reborn, his
+            unbreakable will fueling the fallen Aspect\'s weapons on the field of battle.
+        </item>
+        <item>
+            A former doll transformed and brought to life by magic, Gwen wields the very tools that
+            once created her. She carries the weight of her maker\'s love with every step, taking
+            nothing for granted. At her command is the Hallowed Mist, an ancient and protective
+            magic that has blessed Gwen\'s scissors, needles, and sewing thread. So much is new to
+            her, but Gwen remains joyfully determined to fight for the good that survives in a
+            broken world.
+        </item>
+        <item>
+            A renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his
+            death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the
+            dank alleys and backways of his former hometown, he uses his new supernatural gifts to
+            bring a swift and gruesome end to those who make their fortune by exploiting others—and
+            a city that prides itself on hunting monsters now finds a monster hunting them.
+        </item>
+        <item>
+            Sadistic and cunning, Thresh is an ambitious and restless spirit of the Shadow Isles.
+            Once the custodian of countless arcane secrets, he was undone by a power greater than
+            life or death, and now sustains himself by tormenting and breaking others with slow,
+            excruciating inventiveness. His victims suffer far beyond their brief mortal coil as
+            Thresh wreaks agony upon their souls, imprisoning them in his unholy lantern to torture
+            for all eternity.
+        </item>
+    </string-array>
 </resources>

@@ -31,12 +31,14 @@ class MainActivity : AppCompatActivity() {
         val championSubtitle = resources.getStringArray(R.array.champion_subtitle)
         val championAvatar = resources.obtainTypedArray(R.array.champion_avatar)
         val championBanner = resources.obtainTypedArray(R.array.champion_banner)
+        val championDescription = resources.getStringArray(R.array.champion_description)
         val listChampion = ArrayList<Champion>()
 
         for (i in championName.indices) {
             val champion = Champion(
                 championName[i], championSubtitle[i],
-                championAvatar.getResourceId(i, -1), championBanner.getResourceId(i, -1)
+                championAvatar.getResourceId(i, -1), championBanner.getResourceId(i, -1),
+                championDescription[i]
             )
 
             listChampion.add(champion)
