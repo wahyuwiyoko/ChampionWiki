@@ -3,6 +3,17 @@
     <string name="placeholder_name">Champion Name</string>
     <string name="placeholder_subtitle">Champion Subtitle</string>
     <string name="placeholder_description">Champion Description</string>
+    <string name="placeholder_abilities">Abilities</string>
+    <string name="placeholder_passive">Passive</string>
+    <string name="placeholder_first_ability">First Ability</string>
+    <string name="placeholder_second_ability">Second Ability</string>
+    <string name="placeholder_third_ability">Third Ability</string>
+    <string name="placeholder_fourth_ability">Fourth Ability</string>
+    <string name="placeholder_passive_description">Passive Description</string>
+    <string name="placeholder_first_ability_description">First Ability Description</string>
+    <string name="placeholder_second_ability_description">Second Ability Description</string>
+    <string name="placeholder_third_ability_description">Third Ability Description</string>
+    <string name="placeholder_fourth_ability_description">Fourth Ability Description</string>
 
     <string-array name="champion_name">
         <item>Draven</item>
