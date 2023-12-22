@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gwen_passive">
+        <item>A Thousand Cuts</item>
+        <item>
+            Gwen\'s attacks deal bonus magic damage based on the targets health. She heals for a
+            portion of the damage dealt to champions by this effect.
+        </item>
+    </string-array>
+
+    <string-array name="gwen_first_ability">
+        <item>Snip Snip!</item>
+        <item>
+            Gwen snips her scissors in a cone up to 6 times dealing magic damage. Gwen deals true
+            damage to units in the center and applies her passive to them on each snip.
+        </item>
+    </string-array>
+
+    <string-array name="gwen_second_ability">
+        <item>Hallowed Mist</item>
+        <item>
+            Gwen summons mist that protects her from enemies outside of it. She can only be targeted
+            by enemies who enter the mist.
+        </item>
+    </string-array>
+
+    <string-array name="gwen_third_ability">
+        <item>Skip \'n Slash</item>
+        <item>
+            Gwen dashes a short distance then gains Attack Speed, attack range, and magic damage
+            On-Hit for a few seconds. If she hits an enemy during that time, this Ability\'s
+            cooldown is partially refunded.
+        </item>
+    </string-array>
+
+    <string-array name="gwen_fourth_ability">
+        <item>Needlework</item>
+        <item>
+            Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand
+            Cuts to champions hit. This ability can be cast up to two more times, with each cast
+            throwing additional needles and dealing more damage. Gwen must hit an enemy between
+            each cast to unlock the next one.
+        </item>
+    </string-array>
+</resources>

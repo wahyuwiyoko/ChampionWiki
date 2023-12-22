@@ -143,4 +143,97 @@
             for all eternity.
         </item>
     </string-array>
+
+    <array name="draven_abilities">
+        <item>@array/draven_passive</item>
+        <item>@array/draven_first_ability</item>
+        <item>@array/draven_second_ability</item>
+        <item>@array/draven_third_ability</item>
+        <item>@array/draven_fourth_ability</item>
+    </array>
+
+    <array name="darius_abilities">
+        <item>@array/darius_passive</item>
+        <item>@array/darius_first_ability</item>
+        <item>@array/darius_second_ability</item>
+        <item>@array/darius_third_ability</item>
+        <item>@array/darius_fourth_ability</item>
+    </array>
+
+    <array name="yasuo_abilities">
+        <item>@array/yasuo_passive</item>
+        <item>@array/yasuo_first_ability</item>
+        <item>@array/yasuo_second_ability</item>
+        <item>@array/yasuo_third_ability</item>
+        <item>@array/yasuo_fourth_ability</item>
+    </array>
+
+    <array name="yone_abilities">
+        <item>@array/yone_passive</item>
+        <item>@array/yone_first_ability</item>
+        <item>@array/yone_second_ability</item>
+        <item>@array/yone_third_ability</item>
+        <item>@array/yone_fourth_ability</item>
+    </array>
+
+    <array name="akshan_abilities">
+        <item>@array/akshan_passive</item>
+        <item>@array/akshan_first_ability</item>
+        <item>@array/akshan_second_ability</item>
+        <item>@array/akshan_third_ability</item>
+        <item>@array/akshan_fourth_ability</item>
+    </array>
+
+    <array name="fiora_abilities">
+        <item>@array/fiora_passive</item>
+        <item>@array/fiora_first_ability</item>
+        <item>@array/fiora_second_ability</item>
+        <item>@array/fiora_third_ability</item>
+        <item>@array/fiora_fourth_ability</item>
+    </array>
+
+    <array name="pantheon_abilities">
+        <item>@array/pantheon_passive</item>
+        <item>@array/pantheon_first_ability</item>
+        <item>@array/pantheon_second_ability</item>
+        <item>@array/pantheon_third_ability</item>
+        <item>@array/pantheon_fourth_ability</item>
+    </array>
+
+    <array name="gwen_abilities">
+        <item>@array/gwen_passive</item>
+        <item>@array/gwen_first_ability</item>
+        <item>@array/gwen_second_ability</item>
+        <item>@array/gwen_third_ability</item>
+        <item>@array/gwen_fourth_ability</item>
+    </array>
+
+    <array name="pyke_abilities">
+        <item>@array/pyke_passive</item>
+        <item>@array/pyke_first_ability</item>
+        <item>@array/pyke_second_ability</item>
+        <item>@array/pyke_third_ability</item>
+        <item>@array/pyke_fourth_ability</item>
+    </array>
+
+    <array name="thresh_abilities">
+        <item>@array/thresh_passive</item>
+        <item>@array/thresh_first_ability</item>
+        <item>@array/thresh_second_ability</item>
+        <item>@array/thresh_third_ability</item>
+        <item>@array/thresh_fourth_ability</item>
+    </array>
+
+    <array name="champion_abilities">
+        <item>@array/draven_abilities</item>
+        <item>@array/darius_abilities</item>
+        <item>@array/yasuo_abilities</item>
+        <item>@array/yone_abilities</item>
+        <item>@array/akshan_abilities</item>
+        <item>@array/fiora_abilities</item>
+        <item>@array/pantheon_abilities</item>
+        <item>@array/gwen_abilities</item>
+        <item>@array/pyke_abilities</item>
+        <item>@array/thresh_abilities</item>
+    </array>
 </resources>

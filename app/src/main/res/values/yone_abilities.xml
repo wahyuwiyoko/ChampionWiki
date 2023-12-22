@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yone_passive">
+        <item>Way of the Hunter</item>
+        <item>
+            Yone deals magic damage with every second Attack. In addition, his critical strike
+            chance is increased.
+        </item>
+    </string-array>
+
+    <string-array name="yone_first_ability">
+        <item>Mortal Steel</item>
+        <item>
+            Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering
+            Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of
+            wind knocking enemies Airborne. Mortal Steel is treated as a basic attack and scales
+            with all the same things.
+        </item>
+    </string-array>
+
+    <string-array name="yone_second_ability">
+        <item>Spirit Cleave</item>
+        <item>
+            Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is
+            increased by the number of champions hit by the swipe. Spirit Cleave\'s cooldown and
+            cast time scale with attack speed.
+        </item>
+    </string-array>
+
+    <string-array name="yone_third_ability">
+        <item>Soul Unbound</item>
+        <item>
+            Yone\'s spirit leaves his body behind, gaining Move Speed. When this skill ends,
+            Yone\'s spirit is forced back to his body and he repeats a portion of the damage he
+            dealt as a spirit.
+        </item>
+    </string-array>
+
+    <string-array name="yone_fourth_ability">
+        <item>Fate Sealed</item>
+        <item>
+            Yone blinks behind the last champion in a line with a slash so powerful it pulls all
+            enemies hit towards him.
+        </item>
+    </string-array>
+</resources>

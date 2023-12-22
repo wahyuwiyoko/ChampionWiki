@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="darius_passive">
+        <item>Hemorrhage</item>
+        <item>
+            Darius\' attacks and damaging abilities cause enemies to bleed for physical damage over
+            5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when
+            his target reaches max stacks.
+        </item>
+    </string-array>
+
+    <string-array name="darius_first_ability">
+        <item>Decimate</item>
+        <item>
+            Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take
+            more damage than those struck by the handle. Darius heals based on enemy champions and
+            large monsters hit by the blade.
+        </item>
+    </string-array>
+
+    <string-array name="darius_second_ability">
+        <item>Crippling Strike</item>
+        <item>
+            Darius\'s next attack strikes an enemy\'s crucial artery. As they bleed out, their
+            Move Speed is slowed.
+        </item>
+    </string-array>
+
+    <string-array name="darius_third_ability">
+        <item>Apprehend</item>
+        <item>
+            Darius hones his axe, passively causing his physical damage to ignore a percentage of
+            his target\'s Armor. When activated, Darius sweeps up his enemies with his axe\'s hook
+            and pulls them to him.
+        </item>
+    </string-array>
+
+    <string-array name="darius_fourth_ability">
+        <item>Noxian Guillotine</item>
+        <item>
+            Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage.
+            This damage is increased for each stack of Hemorrhage on the target. If Noxian
+            Guillotine is a killing blow, its cooldown is refreshed for a brief duration.
+        </item>
+    </string-array>
+</resources>

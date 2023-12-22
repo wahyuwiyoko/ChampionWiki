@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pyke_passive">
+        <item>Gift of the Drowned Ones</item>
+        <item>
+            When Pyke is hidden from enemies, he regenerates damage that he has recently taken from
+            champions. Pyke also cannot gain extra Maximum Health from any source, and instead
+            gains Bonus AD.
+        </item>
+    </string-array>
+
+    <string-array name="pyke_first_ability">
+        <item>Bone Skewer</item>
+        <item>
+            Pyke either stabs an enemy in front of him or pulls an enemy towards him.
+        </item>
+    </string-array>
+
+    <string-array name="pyke_second_ability">
+        <item>Ghostwater Dive</item>
+        <item>
+            Pyke enters Camouflage and gains significant Move Speed that decays over time.
+        </item>
+    </string-array>
+
+    <string-array name="pyke_third_ability">
+        <item>Phantom Undertow</item>
+        <item>
+            Pyke dashes and leaves behind a phantom that will return to him, stunning enemy
+            champions along its path.
+        </item>
+    </string-array>
+
+    <string-array name="pyke_fourth_ability">
+        <item>Death from Below</item>
+        <item>
+            Pyke blinks to and executes low health enemies, allowing him to cast this spell again
+            and granting additional gold to an ally who assists.
+        </item>
+    </string-array>
+</resources>

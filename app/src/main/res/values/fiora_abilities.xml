@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fiora_passive">
+        <item>Duelist\'s Dance</item>
+        <item>
+            Fiora has revealed a Vital on this Champion. If she hits the Vital, she restores Health
+            and gains Move Speed.
+        </item>
+    </string-array>
+
+    <string-array name="fiora_first_ability">
+        <item>Lunge</item>
+        <item>
+            Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and
+            applying on-hit effects.
+        </item>
+    </string-array>
+
+    <string-array name="fiora_second_ability">
+        <item>Riposte</item>
+        <item>
+            Fiora parries all incoming damage and disables for a short time, then stabs in a
+            direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked
+            an immobilizing effect with this ability.
+        </item>
+    </string-array>
+
+    <string-array name="fiora_third_ability">
+        <item>Bladework</item>
+        <item>
+            Fiora has increased attack speed for the next two attacks. The first attack slows the
+            target, and the second attack will critically strike.
+        </item>
+    </string-array>
+
+    <string-array name="fiora_fourth_ability">
+        <item>Grand Challenge</item>
+        <item>
+            Fiora reveals all four Vitals on an enemy champion and gains Move Speed while near them.
+            If Fiora hits all four Vitals or if the target dies after she has hit at least one,
+            Fiora and her allies in the area are healed over the next few seconds.
+        </item>
+    </string-array>
+</resources>

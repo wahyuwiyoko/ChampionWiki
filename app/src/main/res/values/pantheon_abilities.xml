@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pantheon_passive">
+        <item>Mortal Will</item>
+        <item>
+            Every few spells or attacks, Pantheon\'s next spell is empowered.
+        </item>
+    </string-array>
+
+    <string-array name="pantheon_first_ability">
+        <item>Comet Spear</item>
+        <item>
+            Pantheon either thrusts his spear or throws his spear in the chosen direction.
+        </item>
+    </string-array>
+
+    <string-array name="pantheon_second_ability">
+        <item>Shield Vault</item>
+        <item>
+            Pantheon dashes to a target, damaging and stunning them.
+        </item>
+    </string-array>
+
+    <string-array name="pantheon_third_ability">
+        <item>Aegis Assault</item>
+        <item>
+            Pantheon sets his shield, becoming invulnerable to damage from the front and striking
+            repeatedly with his spear.
+        </item>
+    </string-array>
+
+    <string-array name="pantheon_fourth_ability">
+        <item>Grand Starfall</item>
+        <item>
+            Pantheon composes himself and then leaps into the air, landing at a chosen location as
+            a comet.
+        </item>
+    </string-array>
+</resources>

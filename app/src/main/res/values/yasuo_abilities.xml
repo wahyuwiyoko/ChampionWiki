@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="yasuo_passive">
+        <item>Way of the Wanderer</item>
+        <item>
+            Yasuo\'s Critical Strike Chance is increased. Additionally, Yasuo builds toward a shield
+            whenever he is moving. The shield triggers when he takes damage from a champion or
+            monster.
+        </item>
+    </string-array>
+
+    <string-array name="yasuo_first_ability">
+        <item>Steel Tempest</item>
+        <item>
+            Thrusts forward, damaging all enemies in a line. On hit, grants a stack of Gathering
+            Storm for a few seconds. At 2 stacks, Steel Tempest fires a whirlwind that knocks
+            Airborne. Steel Tempest is treated as a basic attack and scales with all the same
+            things.
+        </item>
+    </string-array>
+
+    <string-array name="yasuo_second_ability">
+        <item>Wind Wall</item>
+        <item>
+            Creates a moving wall that blocks all enemy projectiles for 4 seconds.
+        </item>
+    </string-array>
+
+    <string-array name="yasuo_third_ability">
+        <item>Sweeping Blade</item>
+        <item>
+            Dashes through target enemy, dealing magic damage. Each cast increases subsequent
+            dash\'s damage, up to a max amount. Cannot be re-cast on the same enemy for a few
+            seconds. If Steel Tempest is cast while dashing, it will strike as a circle.
+        </item>
+    </string-array>
+
+    <string-array name="yasuo_fourth_ability">
+        <item>Last Breath</item>
+        <item>
+            Blinks to an Airborne enemy champion, dealing physical damage and holding all
+            Airborne enemies in the area in the air. Grants maximum Flow but resets all stacks of
+            Gathering Storm. For a moderate time afterwards, Yasuo\'s critical strikes gain
+            significant Bonus Armor Penetration.
+        </item>
+    </string-array>
+</resources>

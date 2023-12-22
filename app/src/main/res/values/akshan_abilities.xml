@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="akshan_passive">
+        <item>Dirty Fighting</item>
+        <item>
+            Every three hits from Akshan\'s Attacks and Abilities deals bonus damage and grants him
+            a Shield if the target was a champion. When Akshan Attacks, he fires an additional
+            Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.
+        </item>
+    </string-array>
+
+    <string-array name="akshan_first_ability">
+        <item>Avengerang</item>
+        <item>
+            Akshan throws a boomerang that deals damage going out and coming back, extending its
+            range each time it hits an enemy.
+        </item>
+    </string-array>
+
+    <string-array name="akshan_second_ability">
+        <item>Going Rogue</item>
+        <item>
+            Akshan passively marks enemy champions as Scoundrels when they kill his ally champions.
+            If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and
+            clears all marks. When activated, Akshan enters camouflage and gains Move Speed and
+            Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while
+            he is not in brush or near terrain.
+        </item>
+    </string-array>
+
+    <string-array name="akshan_third_ability">
+        <item>Heroic Swing</item>
+        <item>
+            Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at
+            the nearest enemy while swinging. He can jump off early or gets knocked off when
+            colliding with champions or terrain.
+        </item>
+    </string-array>
+
+    <string-array name="akshan_fourth_ability">
+        <item>Comeuppance</item>
+        <item>
+            Akshan locks onto an enemy champion and starts storing bullets. When released, he fires
+            all stored bullets, dealing damage based on missing health to the first champion,
+            minion, or structure hit.
+        </item>
+    </string-array>
+</resources>
