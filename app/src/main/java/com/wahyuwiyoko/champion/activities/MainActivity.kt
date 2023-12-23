@@ -1,9 +1,10 @@
-package com.wahyuwiyoko.champion
+package com.wahyuwiyoko.champion.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.wahyuwiyoko.champion.R
 import com.wahyuwiyoko.champion.databinding.ActivityMainBinding
 import com.wahyuwiyoko.champion.models.Champion
 import com.wahyuwiyoko.champion.recyclerview.adapters.ListChampionAdapter
