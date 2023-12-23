@@ -1,6 +1,4 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Base.Theme.ChampionPool" parent="Theme.Material3.DayNight">
-    </style>
-
-    <style name="Theme.ChampionPool" parent="Base.Theme.ChampionPool" />
+    <style name="Base.Theme.ChampionWiki" parent="Theme.Material3.DayNight"></style>
+    <style name="Theme.ChampionWiki" parent="Base.Theme.ChampionWiki" />
 </resources>

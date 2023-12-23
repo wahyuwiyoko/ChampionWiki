@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Champion Pool</string>
+    <string name="app_name">Champion Wiki</string>
     <string name="placeholder_name">Champion Name</string>
     <string name="placeholder_subtitle">Champion Subtitle</string>
     <string name="placeholder_description">Champion Description</string>

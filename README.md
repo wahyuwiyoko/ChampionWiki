@@ -1,3 +1,3 @@
-# Champion Pool
+# Champion Wiki
 
 Under development!

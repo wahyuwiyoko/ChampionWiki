@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ChampionPool"
+rootProject.name = "ChampionWiki"
 include(":app")
