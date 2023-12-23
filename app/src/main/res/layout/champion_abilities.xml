@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,20 +11,22 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:textSize="16sp"
+        android:text="@string/placeholder_abilities"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:text="@string/placeholder_abilities" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/text_passive"
-        android:layout_width="58dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="@id/text_abilities"
-        app:layout_constraintTop_toBottomOf="@+id/text_abilities"
+        app:layout_constraintTop_toTopOf="@+id/text_passive_description"
         tools:text="@string/placeholder_passive" />
 
     <TextView
@@ -33,7 +34,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,10 +46,11 @@
         android:id="@+id/text_first_ability"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@id/text_abilities"
-        app:layout_constraintTop_toBottomOf="@+id/text_passive_description"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
+        app:layout_constraintStart_toStartOf="@id/text_passive"
+        app:layout_constraintTop_toTopOf="@+id/text_first_ability_description"
         tools:text="@string/placeholder_first_ability" />
 
     <TextView
@@ -56,22 +58,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/text_passive"
+        app:layout_constraintTop_toBottomOf="@+id/text_passive_description"
         tools:text="@string/placeholder_first_ability_description" />
 
     <TextView
         android:id="@+id/text_second_ability"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="@id/text_passive"
-        app:layout_constraintTop_toBottomOf="@+id/text_first_ability_description"
+        app:layout_constraintTop_toTopOf="@+id/text_second_ability_description"
         tools:text="@string/placeholder_second_ability" />
 
     <TextView
@@ -79,22 +82,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/text_first_ability"
+        app:layout_constraintTop_toBottomOf="@+id/text_first_ability_description"
         tools:text="@string/placeholder_second_ability_description" />
 
     <TextView
         android:id="@+id/text_third_ability"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="@id/text_passive"
-        app:layout_constraintTop_toBottomOf="@+id/text_second_ability_description"
+        app:layout_constraintTop_toTopOf="@+id/text_third_ability_description"
         tools:text="@string/placeholder_third_ability" />
 
     <TextView
@@ -102,22 +106,23 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/text_second_ability"
+        app:layout_constraintTop_toBottomOf="@+id/text_second_ability_description"
         tools:text="@string/placeholder_third_ability_description" />
 
     <TextView
         android:id="@+id/text_fourth_ability"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/guideline"
         app:layout_constraintStart_toStartOf="@id/text_passive"
-        app:layout_constraintTop_toBottomOf="@+id/text_third_ability_description"
+        app:layout_constraintTop_toTopOf="@+id/text_fourth_ability_description"
         tools:text="@string/placeholder_fourth_ability" />
 
     <TextView
@@ -125,12 +130,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="8dp"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/text_third_ability"
+        app:layout_constraintTop_toBottomOf="@+id/text_third_ability_description"
         tools:text="@string/placeholder_fourth_ability_description" />
 
     <androidx.constraintlayout.widget.Guideline
