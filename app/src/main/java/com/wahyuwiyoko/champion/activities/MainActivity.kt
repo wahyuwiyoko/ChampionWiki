@@ -1,6 +1,9 @@
 package com.wahyuwiyoko.champion.activities
 
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -18,7 +21,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+
         setContentView(binding.root)
+        setSupportActionBar(binding.mainToolbar.toolbar)
 
         rvChampions = binding.rvChampions
         rvChampions.setHasFixedSize(true)
@@ -34,13 +39,15 @@ class MainActivity : AppCompatActivity() {
         val championBanner = resources.obtainTypedArray(R.array.champion_banner)
         val championDescription = resources.getStringArray(R.array.champion_description)
         val championAbilities = resources.obtainTypedArray(R.array.champion_abilities)
+        val championUrl = resources.getStringArray(R.array.champion_url)
         val listChampion = ArrayList<Champion>()
 
         for (i in championName.indices) {
             val champion = Champion(
                 championName[i], championSubtitle[i],
                 championAvatar.getResourceId(i, -1), championBanner.getResourceId(i, -1),
-                championDescription[i], championAbilities.getResourceId(i, -1)
+                championDescription[i], championAbilities.getResourceId(i, -1),
+                championUrl[i]
             )
 
             listChampion.add(champion)
@@ -53,5 +60,21 @@ class MainActivity : AppCompatActivity() {
         rvChampions.layoutManager = LinearLayoutManager(this)
         val listChampionAdapter = ListChampionAdapter(list)
         rvChampions.adapter = listChampionAdapter
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_about -> {
+                // TODO: Add AboutActivity to show about the app
+                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -10,5 +10,6 @@ data class Champion(
     val avatar: Int,
     val banner: Int,
     val description: String,
-    val ability: Int
+    val ability: Int,
+    val url: String
 ) : Parcelable

@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Champion Wiki</string>
+
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+
     <string name="placeholder_name">Champion Name</string>
     <string name="placeholder_subtitle">Champion Subtitle</string>
     <string name="placeholder_description">Champion Description</string>
@@ -236,4 +240,17 @@
         <item>@array/pyke_abilities</item>
         <item>@array/thresh_abilities</item>
     </array>
+
+    <string-array name="champion_url">
+        <item>https://www.leagueoflegends.com/en-us/champions/draven/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/darius/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/yasuo/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/yone/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/akshan/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/fiora/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/pantheon/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/gwen/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/pyke/</item>
+        <item>https://www.leagueoflegends.com/en-us/champions/thresh/</item>
+    </string-array>
 </resources>

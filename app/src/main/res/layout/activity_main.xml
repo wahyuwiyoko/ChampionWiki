@@ -13,5 +13,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/main_toolbar" />
+
+    <include
+        android:id="@+id/main_toolbar"
+        layout="@layout/toolbar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
