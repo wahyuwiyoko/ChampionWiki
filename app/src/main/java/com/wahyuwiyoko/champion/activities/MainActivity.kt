@@ -1,9 +1,9 @@
 package com.wahyuwiyoko.champion.activities
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -70,8 +70,7 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_about -> {
-                // TODO: Add AboutActivity to show about the app
-                Toast.makeText(this, "About", Toast.LENGTH_SHORT).show()
+                startActivity(Intent(this@MainActivity, AboutActivity::class.java))
             }
         }
 
