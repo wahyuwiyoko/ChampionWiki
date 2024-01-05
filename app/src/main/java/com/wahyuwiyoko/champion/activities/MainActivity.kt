@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.wahyuwiyoko.champion.R
@@ -71,6 +72,14 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.action_about -> {
                 startActivity(Intent(this@MainActivity, AboutActivity::class.java))
+            }
+
+            R.id.action_list -> {
+                rvChampions.layoutManager = LinearLayoutManager(this)
+            }
+
+            R.id.action_grid -> {
+                rvChampions.layoutManager = GridLayoutManager(this, 2)
             }
         }
 

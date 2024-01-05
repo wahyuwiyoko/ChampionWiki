@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">Champion Wiki</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
     <string name="about">About</string>
     <string name="by">by</string>
     <string name="developer_name">Wahyu Wiyoko</string>
