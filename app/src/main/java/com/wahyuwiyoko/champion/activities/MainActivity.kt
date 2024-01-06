@@ -54,6 +54,10 @@ class MainActivity : AppCompatActivity() {
             listChampion.add(champion)
         }
 
+        championAvatar.recycle()
+        championBanner.recycle()
+        championAbilities.recycle()
+
         return listChampion
     }
 

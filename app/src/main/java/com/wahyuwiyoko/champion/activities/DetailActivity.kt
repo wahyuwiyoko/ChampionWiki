@@ -57,6 +57,8 @@ class DetailActivity : AppCompatActivity() {
                 abilityDescriptions.add(ability[1])
             }
 
+            abilitiesId.recycle()
+
             val abilityBinding = binding.includeChampionAbilities
 
             abilityBinding.textPassive.text = abilityNames[0]
